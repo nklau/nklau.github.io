@@ -718,7 +718,7 @@ const decayRate = 0.05
 </td>
 <td>
 
-```javascript
+<pre><code>
 function _main() {
   let x = 17
   let greeting = "hello"
@@ -727,7 +727,7 @@ function _main() {
 }
 
 _main()
-```
+</code></pre>
 
 </td>
 </tr>
@@ -735,17 +735,17 @@ _main()
 <tr>
 <td>
 
-```cs
+<pre><code>
 firstName = "John"
 lastName = "Doe"
 
 print($"Hello, {firstName} {lastName}!")
-```
+</code></pre>
 
 </td>
 <td>
 
-```javascript
+<pre><code>
 function _main() {
   let firstName = "John"
   let lastName = "Doe"
@@ -754,7 +754,7 @@ function _main() {
 }
 
 _main()
-```
+</code></pre>
 
 </td>
 </tr>
@@ -762,22 +762,22 @@ _main()
 <tr>
 <td>
 
-```javascript
+<pre><code>
 -2**2
 // semantic error
-```
+</code></pre>
 
 </td>
 <td>
 
-```javascript
+<pre><code>
 function _main() {
   return -2**2
 // syntax error
 }
 
 _main()
-```
+</code></pre>
 
 </td>
 </tr>
@@ -785,22 +785,22 @@ _main()
 <tr>
 <td>
 
-```javascript
+<pre><code>
 x++ + 1
 // semantic error
-```
+</code></pre>
 
 </td>
 <td>
 
-```javascript
+<pre><code>
 function _main() {
   let x = 0
   return x++ + 1
 }
 
 _main()
-```
+</code></pre>
 
 </td>
 </tr>
@@ -808,21 +808,21 @@ _main()
 <tr>
 <td>
 
-```javascript
+<pre><code>
 (x++) + 1
-```
+</code></pre>
 
 </td>
 <td>
 
-```javascript
+<pre><code>
 function _main() {
   let x = 0
   x++ + 1
 }
 
 _main()
-```
+</code></pre>
 
 </td>
 </tr>
@@ -830,16 +830,16 @@ _main()
 <tr>
 <td>
 
-```
+<pre><code>
 sum = (x, y) -> { x + y }
 sum = (x, y) -> x + y
 sum(x, y)
-```
+</code></pre>
 
 </td>
 <td>
 
-```javascript
+<pre><code>
 function _main() {
   let x = undefined
   let y = undefined
@@ -853,7 +853,7 @@ function _main() {
 }
 
 _main()
-```
+</code></pre>
 
 </td>
 </tr>
@@ -861,20 +861,20 @@ _main()
 <tr>
 <td>
 
-```javascript
+<pre><code>
 5.loop(print("hello world"))
-```
+</code></pre>
 
 </td>
 <td>
 
-```javascript
+<pre><code>
 function _main() {
   for (let _ = 0; _ < 5; _++) console.log("hello world")
 }
 
 _main()
-```
+</code></pre>
 
 </td>
 </tr>
@@ -882,20 +882,20 @@ _main()
 <tr>
 <td>
 
-```javascript
+<pre><code>
 5.loop(print)
-```
+</code></pre>
 
 </td>
 <td>
 
-```javascript
+<pre><code>
 function _main() {
   for (let i = 0; i < 5; i++) console.log(i)
 }
 
 _main()
-```
+</code></pre>
 
 </td>
 </tr>
@@ -903,18 +903,18 @@ _main()
 <tr>
 <td>
 
-```javascript
+<pre><code>
 range(5).loop(print)
 // prints 0-4 on separate lines
 
 range(1, 6).loop(print)
 // prints 1-5 on separate lines
-```
+</code></pre>
 
 </td>
 <td>
 
-```javascript
+<pre><code>
 function _main() {
   [...Array(5).keys()].forEach(i => console.log(i))
   // prints 0-4 on separate lines
@@ -924,7 +924,7 @@ function _main() {
 }
 
 _main()
-```
+</code></pre>
 
 </td>
 </tr>
@@ -932,14 +932,14 @@ _main()
 <tr>
 <td>
 
-```swift
+<pre><code>
 isValid ? print("valid!")
-```
+</code></pre>
 
 </td>
 <td>
 
-```javascript
+<pre><code>
 function _main() {
   let isValid = false
   if (isValid) {
@@ -948,7 +948,7 @@ function _main() {
 }
 
 _main()
-```
+</code></pre>
 
 </td>
 </tr>
@@ -956,14 +956,14 @@ _main()
 <tr>
 <td>
 
-```swift
+<pre><code>
 isValid ? print("valid!") : print("invalid!")
-```
+</code></pre>
 
 </td>
 <td>
 
-```javascript
+<pre><code>
 function _main() {
   let isValid = false
 
@@ -975,7 +975,7 @@ function _main() {
 }
 
 _main()
-```
+</code></pre>
 
 </td>
 </tr>
@@ -983,16 +983,16 @@ _main()
 <tr>
 <td>
 
-```swift
+<pre><code>
 x = isValid ? object : print("invalid")
 
 const objectField = x.fieldName
-```
+</code></pre>
 
 </td>
 <td>
 
-```javascript
+<pre><code>
 function _main() {
   let x
   let isValid = false
@@ -1009,7 +1009,7 @@ function _main() {
 }
 
 _main()
-```
+</code></pre>
 
 </td>
 </tr>
@@ -1017,19 +1017,19 @@ _main()
 <tr>
 <td>
 
-```swift
+<pre><code>
 const isValid = false
 x = isValid ? object : print("invalid")
 // prints "invalid"
 
 const objectField = x.fieldName
 // objectField = nil
-```
+</code></pre>
 
 </td>
 <td>
 
-```javascript
+<pre><code>
 function _main() {
   const isValid = false
   let x
@@ -1045,7 +1045,7 @@ function _main() {
 }
 
 _main()
-```
+</code></pre>
 
 </td>
 </tr>
@@ -1053,18 +1053,18 @@ _main()
 <tr>
 <td>
 
-```swift
+<pre><code>
 isValid = false
 x = isValid
   ? object
   : () -> print("invalid")
 x() // prints "invalid"
-```
+</code></pre>
 
 </td>
 <td>
 
-```javascript
+<pre><code>
 function _main() {
   let isValid = false
   let x = isValid ? object : () => console.log("invalid")
@@ -1072,7 +1072,7 @@ function _main() {
 }
 
 _main()
-```
+</code></pre>
 
 </td>
 </tr>
@@ -1080,21 +1080,21 @@ _main()
 <tr>
 <td>
 
-```swift
+<pre><code>
 x()
-```
+</code></pre>
 
 </td>
 <td>
 
-```javascript
+<pre><code>
 function _main() {
   let x = () => this
   return x()
 }
 
 _main()
-```
+</code></pre>
 
 </td>
 </tr>
@@ -1102,7 +1102,7 @@ _main()
 <tr>
 <td>
 
-```js
+<pre><code>
 const season = { 
   'spring': 'spring', 
   'summer': 'summer', 
@@ -1112,12 +1112,12 @@ const season = {
 
 print(season.spring) 
 // prints 'spring'
-```
+</code></pre>
 
 </td>
 <td>
 
-```javascript
+<pre><code>
 function _main() {
   const season = Object.freeze({
     spring: "spring",
@@ -1130,7 +1130,7 @@ function _main() {
 }
 
 _main()
-```
+</code></pre>
 
 </td>
 </tr>
@@ -1138,7 +1138,7 @@ _main()
 <tr>
 <td>
 
-```swift
+<pre><code>
 s = season.fall
 result = match s {
   case season.spring: "spring!"
@@ -1151,12 +1151,12 @@ result = match s {
 }
 print(result)
 // prints "is cold!"
-```
+</code></pre>
 
 </td>
 <td>
 
-```javascript
+<pre><code>
 function _main() {
   let season = {'fall': 'fall'}
   let s = season.fall
@@ -1182,7 +1182,7 @@ function _main() {
 }
 
 _main()
-```
+</code></pre>
 
 </td>
 </tr>

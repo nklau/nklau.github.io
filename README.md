@@ -1,4 +1,4 @@
-![a logo for the programming language bang!, it is big blue bubble letters with a small cartoon explosion coming from the b](docs/logo.png "Logo")
+![a logo for the programming language bang!, it is big blue bubble letters with a small cartoon explosion coming from the b](logo.png "Logo")
 
 # Bang!
 

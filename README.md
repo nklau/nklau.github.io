@@ -708,12 +708,12 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 <tr>
 <td>
 
-```
+<pre><code>
 x = 17
 greeting = "hello"
 greeting = "bye"
 const decayRate = 0.05
-```
+</code></pre>
 
 </td>
 <td>

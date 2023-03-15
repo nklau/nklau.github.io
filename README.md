@@ -708,7 +708,7 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 <tr>
 <td>
 
-```javascript
+```
 x = 17
 greeting = "hello"
 greeting = "bye"

@@ -46,7 +46,7 @@ Aidan Srjoui, Natalie Lau, and Abe Moore Odell have competed as a team in the LM
 |`boolean`|`true`,`false`|`boolean`|`true`,`false`|
 |`number`|`1, 1.5, 1e2, 1E2, 1e+2, 1e-2`|`number`|`1, 1.5, 1e2, 1E2. 1e+2, 1e-2`|
 |`string`|`'str', "str", $'str {var}', $"str {var}"`|`string`|``'str', "str", `str ${var}` ``|
-|`object`|`{},`<br><nobr> `{'x': 1, "y": 'str', '1': true}`</nobr>|`object`|`{},`<br><nobr> `{'x': 1, 'y': 'str', '1': true}`</nobr>|
+|`object`|`{}, {'x': 1, "y": 'str', '1': true}`|`object`|`{}, {'x': 1, 'y': 'str', '1': true}`|
 |`list`|`[], [1, 'hi', {}]`|`array`|`[], [1, 'hi', {}]`|
 |`function`|`() -> {}`, `i -> i`|`function`|`() => {}`, `i => i`|
 

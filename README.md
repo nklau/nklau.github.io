@@ -53,12 +53,12 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <td align="center">
 
-`nil`
+<code>nil</code>
 
 </td>
 <td align="center">
 
-`false`
+<pre><code>false</code></pre>
 
 </td>
 <td align="center">

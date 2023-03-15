@@ -2,6 +2,8 @@
 
 My name is Natalie Lau, and I'm a computer science student at Loyola Marymount University with an interest in language design/semantics and game development.
 
+Link to Bang!'s homepage: https://nklau.github.io/bang/
+
 ***
 
 ### 📈 GitHub Stats

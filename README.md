@@ -9,12 +9,14 @@ Aidan Srjoui, Natalie Lau, and Abe Moore Odell have competed as a team in the LM
 ## Language Overview
 
 ### Comments
+
 |Comment|Description|
 |-------|-----------|
 |`// comment goes here`|Single line comment|
 |`/* comment goes here*/`|Multi line comment|
 
 ### Keywords
+
 |Keyword|Description|
 |-------|-----------|
 |`const`|Used to initialize a variable as read-only<br>Note: Modifying the elements of a constant list or object variable is allowed|
@@ -38,8 +40,6 @@ Aidan Srjoui, Natalie Lau, and Abe Moore Odell have competed as a team in the LM
 |`function`|`() -> {}`, `i -> i`|`function`|`() => {}`, `i => i`|
 
 ### Type Hierarchy
-
-
 Types in Bang! are always implicitly coerced upwards, from the weakest type to the strongest. Following the mission statement of a dynamic and flexible language, coerced types evaluate to the most logical value (at least we think so!). The Type Hierarchy table shows a variable `e` and its coerced values, `e.<type>`. The weakest type, `nil`, is in the first row, and the strongest type, `list`, is in the final row. Within each row, single values are given if the coercion always results in the same value, otherwise, a general case rule and select examples and/or exceptions to the general rule are given.
 
 <table>
@@ -310,7 +310,9 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 </table>
 
 ### Operators and Precedence
+
 **All operators evaluate left to right.**
+
 |Operator|Symbol|Primary Operational Types|Precedence|Associativity|
 |--------|------|-----------------|:--------:|:-----------:|
 |Grouping|`(<exp>)`|Expressions|1|None|

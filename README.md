@@ -1,3 +1,13 @@
+<style>
+table {
+  border-collapse: collapse;
+  border-style: hidden;
+}
+table td, th {
+  border: 1px solid black;
+}
+</style>
+
 ![a logo for the programming language bang!, it is big blue bubble letters with a small cartoon explosion coming from the b](logo.png "Logo")
 
 # Bang!
@@ -43,7 +53,7 @@ Aidan Srjoui, Natalie Lau, and Abe Moore Odell have competed as a team in the LM
 ### Type Hierarchy
 Types in Bang! are always implicitly coerced upwards, from the weakest type to the strongest. Following the mission statement of a dynamic and flexible language, coerced types evaluate to the most logical value (at least we think so!). The Type Hierarchy table shows a variable `e` and its coerced values, `e.<type>`. The weakest type, `nil`, is in the first row, and the strongest type, `list`, is in the final row. Within each row, single values are given if the coercion always results in the same value, otherwise, a general case rule and select examples and/or exceptions to the general rule are given.
 
-<table>
+<table border="1px">
 <tr> <th> Target type &#x2011;> </th> <th> nil </th> <th> boolean </th> <th> number </th> <th> string </th> <th> object </th> <th> list </th></tr>
 
 <tr>
@@ -53,7 +63,7 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <td align="center">
 
-<code>nil</code>
+<pre><code>nil</code></pre>
 
 </td>
 <td align="center">

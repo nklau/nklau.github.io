@@ -125,31 +125,83 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 </td>
 <td align="center">
 
-|e|e.num|
-|:-:|:-:|
-|`false`|`0`|
-|`true`|`1`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.num </th>
+</tr>
+
+<tr>
+<td><pre><code>false</code></pre></td>
+<td><pre><code>0</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>true</code></pre></td>
+<td><pre><code>1</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.str|
-|:-:|:-:|
-|`false`|`'false'`|
-|`true`|`'true'`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.str </th>
+</tr>
+
+<tr>
+<td><pre><code>false</code></pre></td>
+<td><pre><code>'false'</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>true</code></pre></td>
+<td><pre><code>'true'</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.obj|
-|:-:|:-:|
-|`false`|`{'false': false}`|
-|`true`|`{'true': true}`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.obj </th>
+</tr>
+
+<tr>
+<td><pre><code>false</code></pre></td>
+<td><pre><code>{'false': false}</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>true</code></pre></td>
+<td><pre><code>{'true': true}</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.list|
-|:-:|:-:|
-|`false`|`[false]`|
-|`true`|`[true]`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.list </th>
+</tr>
+
+<tr>
+<td><pre><code>false</code></pre></td>
+<td><pre><code>[false]</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>true</code></pre></td>
+<td><pre><code>[true]</code></pre></td>
+</tr>
+</table>
+
 </td>
 </tr>
 
@@ -159,43 +211,113 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 </td>
 <td align="center">
 
-`nil`
+<pre><code>nil</code></pre>
+
 </td>
 <td align="center">
 
-|e|e.bool|
-|:-:|:-:|
-|`0`|`false`|
-|`e`|`true`|
-|`5`|`true`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.bool </th>
+</tr>
+
+<tr>
+<td><pre><code>0</code></pre></td>
+<td><pre><code>false</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>true</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>5</code></pre></td>
+<td><pre><code>true</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.num|
-|:-:|:-:|
-|`e`|`e`|
-|`5`|`5`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.num </th>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>e</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>5</code></pre></td>
+<td><pre><code>5</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.str|
-|:-:|:-:|
-|`e`|`'e'`|
-|`5`|`'5'`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.str </th>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>'e'</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>5</code></pre></td>
+<td><pre><code>'5'</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.obj|
-|:-:|:-:|
-|`e`|`{'e': e}`|
-|`5`|`{'5': 5}`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.obj </th>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>{'e': e}</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>5</code></pre></td>
+<td><pre><code>{'5': 5}</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.list|
-|:-:|:-:|
-|`e`|`[e]`|
-|`5`|`[5]`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.list </th>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>[e]</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>5</code></pre></td>
+<td><pre><code>[5]</code></pre></td>
+</tr>
+</table>
+
 </td>
 </tr>
 <tr>
@@ -205,43 +327,113 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 </td>
 <td align="center">
 
-`nil`
+<pre><code>nil</code></pre>
+
 </td>
 <td align="center">
 
-|e|e.bool|
-|:-:|:-:|
-|`''`|`false`|
-|`e`|`true`|
-|`'string'`|`true`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.bool </th>
+</tr>
+
+<tr>
+<td><pre><code>''</code></pre></td>
+<td><pre><code>false</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>true</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>'string'</code></pre></td>
+<td><pre><code>true</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.num|
-|:-:|:-:|
-|`e`|`len(e)`|
-|`'string'`|`6`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.num </th>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>len(e)</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>'string'</code></pre></td>
+<td><pre><code>6</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.str|
-|:-:|:-:|
-|`e`|`e`|
-|`'string'`|`'string'`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.str </th>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>e</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>'string'</code></pre></td>
+<td><pre><code>'string'</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.obj|
-|:-:|:-:|
-|`e`|`{e: e}`|
-|`'string'`|<nobr>`{'string': 'string'}`</nobr>|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.obj </th>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>{e: e}</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>'string'</code></pre></td>
+<td><pre><code>{'string': 'string'}</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.list|
-|:-:|:-:|
-|`e`|`[e]`|
-|`'string'`|`['string']`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.list </th>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>[e]</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>'string'</code></pre></td>
+<td><pre><code>['string']</code></pre></td>
+</tr>
+</table>
+
 </td>
 </tr>
 
@@ -252,43 +444,113 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 </td>
 <td align="center">
 
-`nil`
+<pre><code>nil</code></pre>
+
 </td>
 <td align="center">
 
-|e|e.bool|
-|:-:|:-:|
-|`{}`|`false`
-|`e`|`true`|
-|<nobr>`{'x': 0, 'y': 1}`</nobr>|`true`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.bool </th>
+</tr>
+
+<tr>
+<td><pre><code>{}</code></pre></td>
+<td><pre><code>false</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>true</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>{'x': 0, 'y': 1}</code></pre></td>
+<td><pre><code>true</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.num|
-|:-:|:-:|
-|`e`|`numKeys(e)`|
-|<nobr>`{'x': 0, 'y': 1}`</nobr>|`2`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.num </th>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>numKeys(e)</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>{'x': 0, 'y': 1}</code></pre></td>
+<td><pre><code>2</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.str|
-|:-:|:-:|
-|`e`|`'e'`|
-|<nobr>`{'x': 0, 'y': 1}`</nobr>|<nobr>`'{'x': 0, 'y': 1}'`</nobr>|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.str </th>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>'e'</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>{'x': 0, 'y': 1}</code></pre></td>
+<td><pre><code>'{'x': 0, 'y': 1}'</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.obj|
-|:-:|:-:|
-|`e`|`e`|
-|<nobr>`{'x': 0, 'y': 1}`</nobr>|<nobr>`{'x': 0, 'y': 1}`</nobr>|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.obj </th>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>e</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>{'x': 0, 'y': 1}</code></pre></td>
+<td><pre><code>{'x': 0, 'y': 1}</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.list|
-|:-:|:-:|
-|`e`|`[e]`|
-|<nobr>`{'x': 0, 'y': 1}`</nobr>|<nobr>`[{'x': 0, 'y': 1}]`</nobr>|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.list </th>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>[e]</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>{'x': 0, 'y': 1}</code></pre></td>
+<td><pre><code>[{'x': 0, 'y': 1}]</code></pre></td>
+</tr>
+</table>
+
 </td>
 </tr>
 
@@ -298,43 +560,113 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 </td>
 <td align="center">
 
-`nil`
+<pre><code>nil</code></pre>
+
 </td>
 <td align="center">
 
-|e|e.bool|
-|:-:|:-:|
-|`[]`|`false`|
-|`e`|`true`|
-|`[5, false]`|`true`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.bool </th>
+</tr>
+
+<tr>
+<td><pre><code>[]</code></pre></td>
+<td><pre><code>false</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>true</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>[5, false]</code></pre></td>
+<td><pre><code>true</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.num|
-|:-:|:-:|
-|`e`|`len(e)`|
-|`[5, false]`|`2`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.num </th>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>len(e)</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>[5, false]</code></pre></td>
+<td><pre><code>2</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.str|
-|:-:|:-:|
-|`e`|`'e'`|
-|`[5, false]`|`'[5, false]'`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.str </th>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>'e'</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>[5, false]</code></pre></td>
+<td><pre><code>'[5, false]'</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.obj|
-|:-:|:-:|
-|`e`|`{'E', E}` for all `E` in `e`|
-|<nobr>`[5, false]`</nobr>|<nobr>`{'5': 5, 'false': false}`</nobr>|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.obj </th>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>{'E': E}</code> for all <code>E</code> in <code>e</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>[5, false]</code></pre></td>
+<td><pre><code>{'5': 5, 'false': false}</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
-|e|e.list|
-|:-:|:-:|
-|`e`|`e`|
-|`[5, false]`|`[5, false]`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.list </th>
+</tr>
+
+<tr>
+<td><pre><code>e</code></pre></td>
+<td><pre><code>e</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>[5, false]</code></pre></td>
+<td><pre><code>[5, false]</code></pre></td>
+</tr>
+</table>
+
 </td>
 </tr>
 

@@ -107,8 +107,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.bool </th>
+<th> e </th>
+<th> e.bool </th>
 </tr>
 
 <tr>
@@ -127,8 +127,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.num </th>
+<th> e </th>
+<th> e.num </th>
 </tr>
 
 <tr>
@@ -147,8 +147,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.str </th>
+<th> e </th>
+<th> e.str </th>
 </tr>
 
 <tr>
@@ -167,8 +167,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.obj </th>
+<th> e </th>
+<th> e.obj </th>
 </tr>
 
 <tr>
@@ -187,8 +187,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.list </th>
+<th> e </th>
+<th> e.list </th>
 </tr>
 
 <tr>
@@ -218,8 +218,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.bool </th>
+<th> e </th>
+<th> e.bool </th>
 </tr>
 
 <tr>
@@ -243,8 +243,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.num </th>
+<th> e </th>
+<th> e.num </th>
 </tr>
 
 <tr>
@@ -263,8 +263,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.str </th>
+<th> e </th>
+<th> e.str </th>
 </tr>
 
 <tr>
@@ -283,8 +283,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.obj </th>
+<th> e </th>
+<th> e.obj </th>
 </tr>
 
 <tr>
@@ -303,8 +303,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.list </th>
+<th> e </th>
+<th> e.list </th>
 </tr>
 
 <tr>
@@ -334,8 +334,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.bool </th>
+<th> e </th>
+<th> e.bool </th>
 </tr>
 
 <tr>
@@ -359,8 +359,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.num </th>
+<th> e </th>
+<th> e.num </th>
 </tr>
 
 <tr>
@@ -379,8 +379,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.str </th>
+<th> e </th>
+<th> e.str </th>
 </tr>
 
 <tr>
@@ -399,8 +399,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.obj </th>
+<th> e </th>
+<th> e.obj </th>
 </tr>
 
 <tr>
@@ -419,8 +419,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.list </th>
+<th> e </th>
+<th> e.list </th>
 </tr>
 
 <tr>
@@ -451,8 +451,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.bool </th>
+<th> e </th>
+<th> e.bool </th>
 </tr>
 
 <tr>
@@ -476,8 +476,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.num </th>
+<th> e </th>
+<th> e.num </th>
 </tr>
 
 <tr>
@@ -496,8 +496,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.str </th>
+<th> e </th>
+<th> e.str </th>
 </tr>
 
 <tr>
@@ -516,8 +516,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.obj </th>
+<th> e </th>
+<th> e.obj </th>
 </tr>
 
 <tr>
@@ -536,8 +536,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.list </th>
+<th> e </th>
+<th> e.list </th>
 </tr>
 
 <tr>
@@ -567,8 +567,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.bool </th>
+<th> e </th>
+<th> e.bool </th>
 </tr>
 
 <tr>
@@ -592,8 +592,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.num </th>
+<th> e </th>
+<th> e.num </th>
 </tr>
 
 <tr>
@@ -612,8 +612,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.str </th>
+<th> e </th>
+<th> e.str </th>
 </tr>
 
 <tr>
@@ -632,8 +632,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.obj </th>
+<th> e </th>
+<th> e.obj </th>
 </tr>
 
 <tr>
@@ -652,8 +652,8 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 
 <table>
 <tr>
-<th style="text-align:center"> e </th>
-<th style="text-align:center"> e.list </th>
+<th> e </th>
+<th> e.list </th>
 </tr>
 
 <tr>

@@ -1,2 +1,6 @@
 theme: jekyll-theme-midnight
 title: Bang!'s Homepage
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

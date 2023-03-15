@@ -1,13 +1,3 @@
-<!-- <style>
-table {
-  border-collapse: collapse;
-  border-style: hidden;
-}
-table td, th {
-  border: 1px solid black;
-}
-</style> -->
-
 ![a logo for the programming language bang!, it is big blue bubble letters with a small cartoon explosion coming from the b](logo.png "Logo")
 
 # Bang!

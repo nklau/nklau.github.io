@@ -29,6 +29,7 @@ Aidan Srjoui, Natalie Lau, and Abe Moore Odell have competed as a team in the LM
 |`local`|Used to force variable shadowing within the current scope|
 
 ### Data Types
+
 |Type|Value|JavaScript Type Equivalent|JavaScript Value Equivalent|
 |----|-----|--------------------------|---------------------------|
 |`nil`|`Nil`|`undefined`|`undefined`|
@@ -53,26 +54,32 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 <td align="center">
 
 `nil`
+
 </td>
 <td align="center">
 
 `false`
+
 </td>
 <td align="center">
 
 `0`
+
 </td>
 <td align="center">
 
 `''`
+
 </td>
 <td align="center">
 
 `{}`
+
 </td>
 <td align="center">
 
 `[]`
+
 </td>
 </tr>
 

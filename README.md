@@ -46,7 +46,7 @@ Aidan Srjoui, Natalie Lau, and Abe Moore Odell have competed as a team in the LM
 |`boolean`|`true`,`false`|`boolean`|`true`,`false`|
 |`number`|`1`,`1.5`,`1e2`,`1E2`,`1e+2`,<br>`1e-2`|`number`|`1`,`1.5`,`1e2`,`1E2`,`1e+2`,<br>`1e-2`|
 |`string`|`'str'`,`"str"`,<br>`$'str {var}'`,`$"str {var}"`|`string`|`'str'`,`"str"`,`` `str ${var}` ``|
-|`object`|`{}`,<br><nobr>`{ 'x': 1, "y": 'str', '1': true }`</nobr>|`object`|`{}`,<br><nobr>`{ 'x': 1, 'y': 'str', '1': true }`</nobr>|
+|`object`|`{}`,<br><nobr> `{ 'x': 1, "y": 'str', '1': true }`</nobr>|`object`|`{}`,<br><nobr> `{ 'x': 1, 'y': 'str', '1': true }`</nobr>|
 |`list`|`[]`,`[1, 'hi', {}]`|`array`|`[]`,`[1, 'hi', {}]`|
 |`function`|`() -> {}`, `i -> i`|`function`|`() => {}`, `i => i`|
 
@@ -73,22 +73,22 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 </td>
 <td align="center">
 
-`0`
+<pre><code>0</code></pre>
 
 </td>
 <td align="center">
 
-`''`
+<pre><code>''</code></pre>
 
 </td>
 <td align="center">
 
-`{}`
+<pre><code>{}</code></pre>
 
 </td>
 <td align="center">
 
-`[]`
+<pre><code>[]</code></pre>
 
 </td>
 </tr>
@@ -100,14 +100,28 @@ Types in Bang! are always implicitly coerced upwards, from the weakest type to t
 </td>
 <td align="center">
 
-`nil`
+<pre><code>nil</code></pre>
+
 </td>
 <td align="center">
 
-|e|e.bool|
-|:-:|:-:|
-|`false`|`false`|
-|`true`|`true`|
+<table>
+<tr>
+<th style="text-align:center"> e </th>
+<th style="text-align:center"> e.bool </th>
+</tr>
+
+<tr>
+<td><pre><code>false</code></pre></td>
+<td><pre><code>false</code></pre></td>
+</tr>
+
+<tr>
+<td><pre><code>true</code></pre></td>
+<td><pre><code>true</code></pre></td>
+</tr>
+</table>
+
 </td>
 <td align="center">
 
